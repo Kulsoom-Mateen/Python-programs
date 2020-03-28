@@ -1,0 +1,8 @@
+print("\t\t\tResume")
+name=input("Enter your full name : ")
+email=input("Enter your email address : ")
+ph=input("Enter your phone no. :")
+address=input("Enter your address : ")
+qual=input("Enter your qualification : ")
+exp=input("enter your area of expertise : ")
+print("\n\nName=", name + "\nEmail address=",email + "\nPhone no.=" ,ph + "\nAddress=",address + "\nQualification=",qual +"\nSpecial skills=",exp)
