@@ -1,21 +1,9 @@
-'''take an input from user, pass it in the argument and return whether it is even or odd'''
-# a=int(input("Enter number : "))
-# def check(t):
-#     if (t%2)==0:
-#         return("Number is even")
-#     elif (t%2)!=0:
-#         return("Number is odd")
-#     else:
-#         return("Wrong input")
-# output=check(a)
-# print(output)
-
 # #single asterik(*) stores in tuple and double asterik will store in dictionary(and give both key and value)
-# def pizza(crust,*topping,size):    # * is for unknown number of arguments  
-#     print("You have ordered a pizza with ",crust," crust and size : ",size ," and the following toppings : ")
-#     for each in topping:
-#         print(each)
-# pizza("Thick","Green olives","Black olives","Chicken",size="13") #thick will store in crust and remaining in topping
+def pizza(crust,*topping,size):    # * is for unknown number of arguments  
+    print("You have ordered a pizza with ",crust," crust , size : ",size ," and the following toppings : ")
+    for each in topping:
+        print(each)
+pizza("Thick","Green olives","Black olives","Chicken",size="13") #thick will store in crust and remaining in topping
 
 
 def pizza1(crust,**topping):
