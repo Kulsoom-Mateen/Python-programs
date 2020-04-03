@@ -11,6 +11,7 @@ def minority_vote(vote1):
             else:
               
                 least=False
-    print(least)
+    print("Minimum votes are for : ",least)
+    print("Number of votes of ",least," is / are : ",count1)
 vote=["A","A","A","A","B","C","D","E"]
 minority_vote(vote)
