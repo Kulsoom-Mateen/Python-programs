@@ -1,17 +1,20 @@
 def minority_vote(vote1):
-    counter=0
+    counter=len(vote1)
     least=0
     for i in vote1:
-
         count1=vote1.count(i)
-        if(count1>counter):
+        print(count1)
+        if(counter>count1):
             counter=count1
-            if(counter/len(vote1)>=0.5):
-                least=vote1[count1+1]
-            else:
+            least=i
+            # if(counter/len(vote1)>=0.5):
+            #     least=vote1[count1+1]
+            # else:
               
-                least=False
+            #     least=False
     print("Minimum votes are for : ",least)
-    print("Number of votes of ",least," is / are : ",count1)
-vote=["A","A","A","A","B","C","D","E"]
+    print("Number of votes of ",least," is / are : ",counter)
+vote=["A","A","A","E","B","B","C","A","B","C","C","E"]
 minority_vote(vote)
+
+
