@@ -17,20 +17,34 @@ b = int(input("Enter location of orange tree : "))
 m = int(input("Enter number of apples on apple tree : "))
 n = int(input("Enter number of oranges on orange tree : "))
 
-apples=[]
-oranges=[]
+# for i in range(m):
+#     a=int(input("Enter units distance from a where each apple falls : "))
+#     apples=apples.append(a)
+# for j in range(n):
+#     b=int(input("Enter units distance from b where each orange falls : "))
+#     oranges=oranges.append(b)
+# print("Apple tree is located at a = ",a)
+# print("Orange tree is located at b = ",b)
+# countApplesAndOranges(s, t, a, b, apples, oranges)
+apples=[2,3,-4]
+oranges=[3,-2,-4]
 
-for i in range(m):
-    a=int(input("Enter units distance from a where each apple falls : "))
-    apples1=[]
-    apples1=apples.append(a)
-globals(apples)['apples']=apples1
-for j in range(n):
-    b=int(input("Enter units distance from b where each orange falls : "))
-    oranges1=[]
-    oranges1=oranges.append(b)
-globals(oranges)['oranges']=oranges1
-print("Apple tree is located at a = ",a)
-print("Orange tree is located at b = ",b)
-countApplesAndOranges(s, t, a, b, apples, oranges)
+for i in range(len(apples)):
+    apples[i]=apples[i]+a
+print(apples)
 
+for j in range(len(oranges)):
+    oranges[j]=oranges[j]+b
+print(oranges)
+
+apple_count=0
+for x in range(len(apples)):
+    if apples[x]>=s and apples[x]<=t :
+        apple_count=apple_count+1
+
+orange_count=0
+for y in range(len(oranges)):
+    if oranges[y]>=s and oranges[y]<=t :
+        orange_count=apple_count+1
+
+print(apple_count," apple(s) and ",orange_count," orange(s) land in inclusive range of ",s,"-",t)
