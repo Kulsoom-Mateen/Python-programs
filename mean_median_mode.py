@@ -19,23 +19,14 @@ def findMedian(a, n):
 
 def findMode(a,n):
     sorted(a)
-    numbers = dict()
-    for item in a:
-        if item not in numbers:
-            numbers[item] = 1
-        else:
-            numbers[item] = numbers[item] + 1
-    max_count = 0
-    for key in numbers:
-        if numbers[key] > max_count:
-            max_count = numbers[key]
-    max_modal_elements = []
-    for key in numbers:
-        if numbers[key] == max_count:
-            max_modal_elements.append(key)
-    mode = min(max_modal_elements)
+    max_count=0
+    mode=0
+    for i in (a):
+        for j in (a):
+            if a.count(j)>max_count:
+                max_count=a.count(j)
+                mode=j
     return float(mode)
-
 
 n = int()
 number = [45,23,76,34,9,3,6,23,23,7]
