@@ -16,8 +16,8 @@ def count_substring(string, sub_string):
                 s=s+1
     return s
 
-string = "ABCDCD"
-sub_string = "CD"
+string = input("Enter a string : ")
+sub_string = input("Enter the string you want to find : ")
 
 count = count_substring(string, sub_string)
 print("Number of occurence(s) of ", sub_string , " in " , string , " is : " ,count)
