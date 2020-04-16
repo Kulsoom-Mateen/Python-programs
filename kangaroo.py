@@ -13,8 +13,9 @@ def kangaroo(x1, v1, x2, v2):
         x2=x2+v2
         if(x1==x2):
             s="YES"
-            print(x1,x2)
+            print("Both kangaroos will meet at point : ",x1)
             return s
+
         else:
             s="NO"
         
