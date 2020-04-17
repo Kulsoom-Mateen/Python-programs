@@ -14,6 +14,11 @@ def reverseArray(a):
         b=b+1
     return s
 
-arr = [1,2,3,4]
+count = int(input("Enter the number of elements in a list : "))
+arr = list()
+print("Enter elements of a list : ")
+for i in range(count):
+    arr.append(int(input()))
+
 res = reverseArray(arr)
 print(res)
