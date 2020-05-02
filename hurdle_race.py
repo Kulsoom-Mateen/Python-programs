@@ -14,13 +14,13 @@ def hurdleRace(k, height):
         a=height[len(height)-1]-k
     return a
 
-nk = input().split()
-
-n = int(nk[0])
-
-k = int(nk[1])
-
-height = list(map(int, input().rstrip().split()))
-
+n = int(input("Enter number of hurdles : "))
+k = int(input("Enter the maximum height an athlete can jump : "))
+b=0
+height=list()
+print("Enter height of each hurdle : ")
+for i in range(n):
+    b=int(input())
+    height.append(b)
 result = hurdleRace(k, height)
-print(result)
+print("An athelete must drink",result,"doses to be able to jump all hurdles")
