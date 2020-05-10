@@ -10,3 +10,14 @@ print(x)
 age = 20
 txt = s+'and I am {}'
 print(txt.format(age))
+t = "hello world"
+print(t.capitalize())
+print(t.casefold())
+print(t.center(20))
+print(t.count("l"))
+r = "$%^72/  436skjashdf"
+print(r.encode())
+print(r.endswith("f"))
+print(r.endswith("h"))
+q = "H\te\tl\tl\to"
+print(q.expandtabs(4))
