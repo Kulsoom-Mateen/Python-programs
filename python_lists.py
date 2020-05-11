@@ -36,3 +36,7 @@ for j in lst2:
 print(lst)
 lst.extend(lst1)
 print(lst)
+lst.reverse()
+print(lst)
+lst.sort()
+print(lst)
