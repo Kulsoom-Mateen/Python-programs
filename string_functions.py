@@ -35,3 +35,27 @@ print(c.isdigit())
 d = "3Demo"
 print(d.isidentifier())
 print(q.islower())
+print(c.isnumeric())
+print(q.isprintable())
+print(c.isprintable())
+print(c.isspace())
+d = "   "
+print(d.isspace())
+e = "Hello World"
+print(e.istitle())
+print(c.istitle())
+f = "HY"
+print(f.isupper())
+print(c.isupper())
+l = ["a","b","c"]
+g = "$".join(l)
+print(g)
+print(f.ljust(10))
+print(f.rjust(20))
+print(f,s.lstrip(),f)
+print(f,s.rstrip(),f)
+print(s.partition("is"))
+print(s.replace("My name is","I am"))
+print(s.rfind('m'))
+print(s.rfind('a'))
+print(s.rindex('a'))
