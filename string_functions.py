@@ -59,3 +59,13 @@ print(s.replace("My name is","I am"))
 print(s.rfind('m'))
 print(s.rfind('a'))
 print(s.rindex('a'))
+h = "How are you doing?"
+print(h.rpartition('are'))
+i="one,two,three"
+print(i.rsplit(','))
+print(i.split())
+j="Thank you\nWelcome"
+print(j.splitlines())
+print(i.startswith('one'))
+print(i.swapcase())
+print(i.title())
