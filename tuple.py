@@ -11,3 +11,7 @@ t1 = ("Apple",)
 print(t1,type(t1))
 s = ("Apple")
 print(s,type(s))
+t2 = t + t1
+print(t2)
+t3 = tuple(("A","B","C"))
+print(t3)
