@@ -1,4 +1,4 @@
-t = ("Honda" , "Nissan" , "Suzuki" , "Toyota")
+t = ("Honda" , "Nissan" , "Suzuki" , "Toyota" , "Honda")
 print(t)
 print(t[1])
 print(t[-1])
@@ -15,3 +15,7 @@ t2 = t + t1
 print(t2)
 t3 = tuple(("A","B","C"))
 print(t3)
+a =t.count("Honda")
+print(a)
+b = t.index("Toyota")
+print(b)
