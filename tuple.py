@@ -6,3 +6,8 @@ print(t[1:3])
 print(t[-2:-1])
 for i in t:
     print(i)
+print(len(t))
+t1 = ("Apple",)
+print(t1,type(t1))
+s = ("Apple")
+print(s,type(s))
