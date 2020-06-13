@@ -73,3 +73,13 @@ print(myfamily["child3"]["age"])
 
 d4 = dict(name="ABC",age="10")
 print(d4)
+
+x = d4.values()
+print(x)
+
+y = ("Apple","Mango","Banana")
+z = 1
+d5 = dict.fromkeys(y,z)
+print(d5)
+d5.update({"Pineapple":"2"})
+print(d5)
