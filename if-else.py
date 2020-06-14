@@ -27,3 +27,18 @@ i = 33
 j = 500
 if h > i or h > j:
     print("At least one of the conditions is True")
+
+x = 41
+if x > 10:
+    print("Above ten,")
+    if x > 20:
+        print("and also above 20!")
+    else:
+        print("but not above 20.")
+
+k = 33
+l = 200
+if l > k:
+    pass
+
+print("Finish!!")
