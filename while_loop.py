@@ -23,3 +23,8 @@ while i < 6:
   i += 1
 else:
   print("i is no longer less than 6")
+
+x = 1
+while x<=10:
+    print("100 *",x,"=",100*x)
+    x=x+1
