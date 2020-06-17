@@ -10,3 +10,9 @@ while b <= 5:
         break
     b=b+1
 
+c = 10
+while c <= 15:
+    c = c + 1
+    if c==13:
+        continue
+    print(c)
