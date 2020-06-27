@@ -19,6 +19,20 @@ def my_function5(**kid):
 def my_function6(country = "Norway"):
   print("I am from " + country)
 
+def my_function7(food):
+  for x in food:
+    print(x)
+
+def my_function8(x):
+  return 5 * x
+
+def tri_recursion9(k):
+  if(k > 0):
+    result = k + tri_recursion9(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
 
 my_function()
 
@@ -38,3 +52,13 @@ my_function6("Pakistan")
 my_function6("India")
 my_function6()
 my_function6("Brazil")
+
+fruits = ["apple", "banana", "cherry"]
+my_function7(fruits)
+
+print(my_function8(3))
+print(my_function8(5))
+print(my_function8(9))
+
+print("\n\nRecursion Example Results")
+tri_recursion9(6)
