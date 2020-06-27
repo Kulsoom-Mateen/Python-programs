@@ -1,11 +1,18 @@
 def my_function():
   print("Hello from a function")
 
-my_function()
-
-def my_function(fname):
+def my_function1(fname):
   print(fname + " Refsnes")
 
-my_function("Emil")
-my_function("Tobias")
-my_function("Linus")
+def my_function2(fname, lname):
+  print(fname + " " + lname)
+
+my_function()
+
+my_function1("Emil")
+my_function1("Tobias")
+my_function1("Linus")
+
+my_function2("Emil", "Refsnes")
+
+
